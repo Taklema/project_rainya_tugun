@@ -21,6 +21,17 @@ header nav{
  .menu-text:hover{
      color: #d48b37;
  }
+
+.active-menu{
+    color: rgba(255, 255, 255, 0.678);
+    border-bottom:2px solid #156B46;
+ }
+ @media screen and (max-width:764px){
+    .about-tugun{
+        width: 70%;
+        font-size: xx-small;
+    }
+}
  /* .marquee-work{
     height: 70px;
     background-color: #5F8C23;
@@ -61,14 +72,14 @@ header nav{
     }
     .s-logo {
         margin-top: 0px;}
-    .review .review-row {flex-direction: column-reverse;
-    }
-    .footer .f-manu .h5 .a{
+    /* .review .review-row {flex-direction: column-reverse;
+    } */
+    /* .footer .f-manu .h5 .a{
         text-decoration: none;
         display: flex;
         justify-content: center;
         text-align: center;
-    }
+    } */
     /* footer .row {
         margin: 5px 25px;
     } */
@@ -114,7 +125,36 @@ header nav{
             font-size: x-large;
             font-weight: 500;
         }
-    
+        .moto-text{
+            font-weight: bold;
+        }
+        
+        .partnership-text,
+        .ownership-text,
+        .leadership-text,
+        .moto-info,
+        .we-text{
+            text-align: justify;
+        }
+         .partner-text{
+            display: block;
+            text-align: justify;
+         }
+        
+        .people{
+            font-weight: bold;
+        }
+        
+        .invest-text{
+            color: #20aa6e;
+            font-weight: bold;
+            display: inline;
+        }
+        
+        .icons{
+            width: 3vw;
+        }
+        
     .offer-text{
         font-weight: bold;
         
