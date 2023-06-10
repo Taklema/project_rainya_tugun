@@ -164,3 +164,10 @@ header nav{
         color: white;
         text-decoration: none;
     }
+    .fixed-button {
+        position: fixed;
+        bottom: 5%;
+        right: 2%;
+        background-color: black;
+        padding: 7px 12px;
+    }
